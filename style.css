@@ -1,0 +1,79 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border;
+    font-family: verdana, sans-serif;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(58,180,88);
+    background: linear-gradient(90deg, rgba(58,180,88,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+}
+
+.app {
+    width: 500px;
+    height: 500px;
+    background-color: #1dfd6f;
+    padding: 5px;
+    border-radius: 8px;
+    box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.774);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.app button {
+    cursor: pointer;
+    width: 250px;
+    height: 45px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: 0.3s ease-in-out;
+    font-size: 0.9rem;
+    padding: 5px;
+    font-weight: 900;
+}
+
+.app button:hover {
+    width: 250px;
+    height: 50px;
+    background-color: gray;
+    color: black;
+
+}
+
+.campo-respostas {
+    width: 100%;
+    height: 75%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.campo-respostas .img {
+    width: 170px;
+    margin-top: 10px;
+    display: none;
+}
+
+.yes {
+    background-color: red;
+}
+.no {
+    background-color: green;
+}
+
+.buttonStyle {
+    text-align: center;
+}
+
+.span {
+    text-align: center;
+}
